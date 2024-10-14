@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block head %}
+{# <link href="/pagefind/pagefind-ui.css" rel="stylesheet"> #}
+<script src="/pagefind/pagefind-ui.js"></script>
+<link href="{{ SITEURL }}/theme/css/pagefind-ui.css" rel="stylesheet">
+<link href="{{ SITEURL }}/theme/css/pagefind.css" rel="stylesheet">
+{% endblock %}
+
+
+{% block content %}
+
+<div id="search"></div>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ 
+            element: "#search", 
+            showSubResults: false ,
+            pageSize: 25,
+            showImages: false,
+            excerptLength: 25
+        });
+    });
+</script>
+
+<div id="categories">
+    <ul>
+        {% for category, articles in categories|sort %}
+            <li><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+
+{% endblock content %}

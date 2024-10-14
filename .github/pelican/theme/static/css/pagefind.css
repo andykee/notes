@@ -1,0 +1,77 @@
+:root {
+    --pagefind-ui-scale: 1;
+    --pagefind-ui-primary: var(--text-color);
+    --pagefind-ui-text: var(--text-color);
+    --pagefind-ui-background: var(--background-color);
+    --pagefind-ui-font: IBM Plex Mono;
+}
+
+/* --- SEARCH INPUT FORM --- */
+.pagefind-ui__form:before {
+    top: calc(17px * var(--pagefind-ui-scale));
+}
+
+.pagefind-ui__search-input {
+    font-weight: 500;
+    font-family: IBM Plex Mono;
+    border: 1px solid var(--border-color);
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    height: auto;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-right: calc(70px * var(--pagefind-ui-scale));
+    padding-left: calc(54px * var(--pagefind-ui-scale));
+}
+
+.pagefind-ui__search-input::placeholder {
+    opacity: 0.4;
+}
+
+.pagefind-ui__search-input:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    border-color: rgba(27, 153, 89, 1) !important;
+}
+
+.pagefind-ui__search-clear {
+    display: none;
+    visibility: hidden
+}
+
+/* --- SEARCH RESULTS --- */
+.pagefind-ui__message {
+    font-size: 0.875rem;
+    font-weight: 500;
+    height: auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    
+}
+
+/* remove border above each search result */
+.pagefind-ui__result {
+    border-top: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* remove border at bottom of all search results */
+.pagefind-ui__result:last-of-type {
+    border-bottom: none;
+}
+
+.pagefind-ui__result-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.pagefind-ui__result-excerpt {
+    font-size: 0.875rem;
+}
+
+.pagefind-ui--reset mark {
+    background-color: transparent;
+    color: var(--text-color);
+    font-weight: 700;
+}

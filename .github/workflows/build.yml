@@ -1,0 +1,63 @@
+name: Build and publish
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+env:
+  PELICAN_DIR: ${{ github.workspace }}/.github/pelican
+  CONTENT_DIR: ${{ github.workspace }}/.github/content
+  OUTPUT_DIR: ${{ github.workspace }}/.github/output
+  AWS_REGION : us-west-2
+  S3_BUCKET: notes.andykee.com
+  
+permissions:
+  id-token: write   
+  contents: read   
+      
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repo
+        uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10' 
+          
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      - name: Install dependencies
+        run: pip install -r ${{ github.workspace }}/.github/pelican/requirements.txt
+        
+      - name: Build
+        run: |
+          mkdir ${{ env.CONTENT_DIR }}
+          mkdir ${{ env.OUTPUT_DIR }}
+          python ${{ env.PELICAN_DIR }}/build.py ${{ github.workspace }} ${{ env.CONTENT_DIR }}
+          pelican ${{ env.CONTENT_DIR }} -o ${{ env.OUTPUT_DIR }} -s ${{ env.PELICAN_DIR }}/pelicanconf.py
+          python ${{ env.PELICAN_DIR }}/copy_images.py ${{ github.workspace }} ${{ env.OUTPUT_DIR }}
+          
+      - name: Run Pagefind
+        run: npx pagefind --site ${{ env.OUTPUT_DIR }}
+        
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::826183391955:role/github_actions
+          role-session-name: publish
+          aws-region: ${{ env.AWS_REGION }}
+  
+      - name: Upload to S3
+      #  working-directory: ${{ github.workspace }}
+        run: aws s3 sync ${{ env.OUTPUT_DIR }} s3://${{ env.S3_BUCKET }} --delete

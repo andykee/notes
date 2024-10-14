@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+{% include 'nav_back.html' %}
+
+  <article data-pagefind-body>
+    <header>
+      <h1 class="post-title">{{ article.title }}</h1>
+
+      <div class="post-date">
+        <time datetime="{{ article.date.isoformat() }}">
+          {{ article.date|strftime('%b, %d %Y') }}
+        </time>
+      </div>
+
+    </header>
+
+    {{ article.content }}
+
+  <div category="{{ article.category }}" data-pagefind-index-attrs="category"></div>
+  
+</article>
+
+{% include 'nav_back_to_top.html' %}
+
+{% endblock %}

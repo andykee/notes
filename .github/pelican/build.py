@@ -55,13 +55,9 @@ def build(inputdir, outputdir):
 
 def git_commit_date(filename):
     CMD = f'git log -1 --format=%ci {filename}'
-    print(CMD)
     resp = subprocess.run(CMD, shell=True, capture_output=True, text=True)
     if resp.stdout:
-        print(resp.stdout)
         datestr, *_ = resp.stdout.split()
-        print(datestr)
-        print('')
         return datestr
 
 

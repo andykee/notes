@@ -29,6 +29,7 @@ def build(inputdir, outputdir):
         for infile in content_files:
             outfile = os.path.join(outputdir, infile.split('/')[-1])
             date = git_commit_date(infile)
+            print(infile, date)
 
             with open(infile, 'r') as i:
                 # a valid note must have a markdown H1 as its first line
@@ -48,6 +49,8 @@ def build(inputdir, outputdir):
                         if date:
                             o.write(f'Date: {date}\n')
                         o.write(f'Category: {category}\n')
+
+                        print(title, date, category)
 
                         for line in i:
                             o.write(line)

@@ -17,10 +17,8 @@ mag = np.zeros_like(lats)
 
 gm = GeoMag()
 for ix, iy in np.ndindex(lats.shape):
-    mag[ix, iy] = gm.calculate(glat=lats[ix, iy],
-                               glon=lons[ix, iy],
-                               alt=500,
-                               time=2020.0).f
+    mag[ix, iy] = gm.calculate(glat=lats[ix, iy], glon=lons[ix, iy],
+                               alt=500, time=2020.0).f
 
 # don't draw contours for values above 22000 nT
 contour_max = 22000
@@ -47,4 +45,4 @@ m.contour(x=lons, y=lats, data=mag_contour, latlon=True,
           levels=7, colors='w', linewidths=0.5)
 ```
 
-<img src="matplotlib-saa.png" width="500">
+<img src="matplotlib-saa.png" width="700">

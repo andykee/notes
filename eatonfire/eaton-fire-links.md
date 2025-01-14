@@ -1,8 +1,11 @@
 # Eaton fire useful links
 
-#### General info
+#### General fire info
 * [CAL FIRE incident page](https://www.fire.ca.gov/incidents/2025/1/7/eaton-fire)
 * [ANF incident page](https://inciweb.wildfire.gov/incident-information/caanf-eaton-fire)
+
+#### Disaster response
+* [FEMA Disaster Assistance](https://www.disasterassistance.gov)
 * [211LA wildfire information](https://211la.org/LA-Wildfires)
 * [Altadena town council](https://altadenatowncouncil.org)
 

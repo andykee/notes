@@ -3,6 +3,8 @@
 #### General info
 * [CAL FIRE incident page](https://www.fire.ca.gov/incidents/2025/1/7/eaton-fire)
 * [ANF incident page](https://inciweb.wildfire.gov/incident-information/caanf-eaton-fire)
+* [211LA wildfire information](https://211la.org/LA-Wildfires)
+* [Altadena town council](https://altadenatowncouncil.org)
 
 #### Maps
 * [CAL FIRE Damage Inspection](https://recovery.lacounty.gov/eaton-fire/)

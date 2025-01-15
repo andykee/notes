@@ -28,7 +28,7 @@ Ref: [Pasadena Now 1/14/2025](https://pasadenanow.com/main/emergency-housing-cri
 * [How to build a Corsi-Rosenthal box (DIY air scrubber)](https://corsirosenthalfoundation.org/resources/how-to-build-a-corsi-rosenthal-box-usa/)
 * [Protect your pets from wildfire smoke](https://www.airnow.gov/publications/wildfire-guide-factsheets/wildfire-smoke-protect-your-pets/)
 * [CIRES researchers find compromised indoor air in homes following Marshall Fire](https://cires.colorado.edu/news/cires-researchers-find-compromised-indoor-air-home-following-marshall-fire?fbclid=IwZXh0bgNhZW0CMTEAAR2ezoKFYlwtfEir1FoLo0flA22aIvHvK1OT_AD5gfv8gBcBk-3N19v5T_U_aem_dtcONLzoUUVbib1tz8vWIQ)
-
+* [Why Doctors Still Recommend Masking After Wildfire Smoke Clears](https://www.nytimes.com/wirecutter/reviews/masking-after-wildfires/)
 #### Hazardous Clean-Up Info
 I just spoke to my cousin on the east coast, he is an expert in hazardous material clean-up (commercial and residential) including ash and all toxins caused by fires like ours. Lots of good info in no particular order:  
 

@@ -11,6 +11,7 @@
 * [Homeowner’s Guide to Risk Reduction and Remediation of Residential Smoke Damage](https://www.fema.gov/sites/default/files/documents/fema_marshall-fire-mat-homeowners-guide-risk-reduction-remediation-residential-smoke-damage.pdf)
 * [The Red Guide Tool Box](https://theredguidetorecovery.com/free-preparedness-recovery-tools/)
 * [Smoke remediation](https://chicora.org/fire.html)
+* [Smoke damage](https://docs.google.com/document/d/12_60Os6xw_ASyuufLoqKF1UOVutoZ3kv6HBzdDHUTYY/edit?tab=t.0)
 
 “I have a Ph.D. in atmospheric physics and chemistry and specifically studied 
 the production and distribution of pollutants from wildfires,” testified 

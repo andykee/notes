@@ -3,6 +3,7 @@
 #### General fire info
 * [CAL FIRE incident page](https://www.fire.ca.gov/incidents/2025/1/7/eaton-fire)
 * [ANF incident page](https://inciweb.wildfire.gov/incident-information/caanf-eaton-fire)
+* [Watch Duty](https://app.watchduty.org)
 
 #### Disaster response
 * [FEMA Disaster Assistance](https://www.disasterassistance.gov)
@@ -11,6 +12,7 @@
 
 #### Maps
 * [CAL FIRE Damage Inspection](https://recovery.lacounty.gov/eaton-fire/)
+* [California Fire Imagery](https://storms.ngs.noaa.gov/storms/2025_eri/index.html#15.6/34.185971/-118.134675)
 * [MAXXAR overhead imagery 2025-01-10 10:36AM](https://wilg.github.io/la-fire-maps/images/1050010040277300.html)
 * [NASA Disasters portal](https://maps.disasters.nasa.gov/arcgis/apps/MinimalGallery/index.html?appid=212810ced43e42deb81ce94c56e5c70a)
 * [NASA JPL AVRIS quicklook data](https://popo.jpl.nasa.gov/mmgis-aviris/?mission=LA_Fires)

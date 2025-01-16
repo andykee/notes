@@ -18,3 +18,8 @@
 * [NASA JPL AVRIS quicklook data](https://popo.jpl.nasa.gov/mmgis-aviris/?mission=LA_Fires)
 * [NASA JPL AVRIS-3 calibrated radiance data](https://search.earthdata.nasa.gov/search/granules?p=C3236537162-ORNL_CLOUD&pg[0][v]=f&pg[0][gsk]=-start_date&q=AVIRIS-3&tl=1736836768!3!!&lat=34.32577812179905&long=-119.73559570312501&zoom=7)
 
+#### Air quality
+* [AirNow](https://fire.airnow.gov/#10/34.1911/-118.1211)
+* [PurpleAir](https://map.purpleair.com/air-quality-standards-us-epa-aqi?opt=%2F1%2Flp%2Fa10%2Fp604800%2FcC0#13.63/34.19123/-118.14337)
+* [Interagency Wildland Fire Air Quality Smoke Outlook - Altadena](https://outlooks.airfire.org/outlook/5f4a99be)
+

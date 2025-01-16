@@ -1,12 +1,5 @@
 # Eaton fire recovery information
 
-#### Tenant's rights
-* [After the Disaster: Information for Landlords and tenants](https://dcba.lacounty.gov/after-the-disaster-information-for-landlords-and-tenants/)
-* [Tenant Rights/Legal Guidance: Eaton Fire Incident](https://docs.google.com/document/d/1n55FPsHRZcoHX8egTe63yAGN3-A26QRYw3rUVImmGhw/edit?usp=sharing)
-* [Steps to Take After the Eaton Canyon Fire: Resources for Homeowners, Renters, and Small Businesses](https://www.recoveryaltadena.com/actionstotake)
-* [Know Your Rights as a California Tenant](https://oag.ca.gov/system/files/media/Know-Your-Rights-Habitability-English.pdf)
-* [I was forced to evacuate my home. Do I still need to pay my mortgage, rent, utility bills?](https://www.latimes.com/business/story/2025-01-14/wildfire-loss-utilities-mortgage-rent#:~:text=California's%20anti%2Dprice%2Dgouging%20law,existing%20tenants%20and%20new%20leases)
-
 #### Smoke remediation
 * [Homeowner’s Guide to Risk Reduction and Remediation of Residential Smoke Damage](https://www.fema.gov/sites/default/files/documents/fema_marshall-fire-mat-homeowners-guide-risk-reduction-remediation-residential-smoke-damage.pdf)
 * [The Red Guide Tool Box](https://theredguidetorecovery.com/free-preparedness-recovery-tools/)

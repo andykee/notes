@@ -6,14 +6,6 @@
 * [Smoke remediation](https://chicora.org/fire.html)
 * [Smoke damage](https://docs.google.com/document/d/12_60Os6xw_ASyuufLoqKF1UOVutoZ3kv6HBzdDHUTYY/edit?tab=t.0)
 
-“I have a Ph.D. in atmospheric physics and chemistry and specifically studied 
-the production and distribution of pollutants from wildfires,” testified 
-Brigitte Rooney. “Our landlord informed us that once the outside air is clear 
-of smell and ash, then the inside will be fine soon. This is objectively 
-false.”
-
-Ref: [Pasadena Now 1/14/2025](https://pasadenanow.com/main/emergency-housing-crisis-grips-pasadena-as-wildfire-displaces-thousands)
-
 #### Debris cleanup
 * [Wildfire Debris Removal](https://www.recoveryaltadena.com/debrisremoval)
 

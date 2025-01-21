@@ -10,4 +10,4 @@
 
 * [Pasadena Tenant's Union guide for fire-impacted tenants](https://docs.google.com/document/d/1oImEUGV9qICUGEu-AYKhtJrdjdGbfPI6C8KuX2N9Apo/edit?tab=t.0)
 * [Reddit - Renters & Housing megathread - fire related for tenants](https://www.reddit.com/r/pasadena/comments/1i3jegg/renters_housing_megathread_fire_related_for/)
-
+* [California habitability requirements](https://dot.ca.gov/-/media/dot-media/programs/right-of-way/documents/rw-manual-exhibits/chapter-11/11-ex-47-updated-a11y.pdf)

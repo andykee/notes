@@ -7,3 +7,7 @@
 * [I was forced to evacuate my home. Do I still need to pay my mortgage, rent, utility bills?](https://www.latimes.com/business/story/2025-01-14/wildfire-loss-utilities-mortgage-rent#:~:text=California's%20anti%2Dprice%2Dgouging%20law,existing%20tenants%20and%20new%20leases)
 * [Are you a renter impacted by wildfires? Here are some housing resources](https://www.kcrw.com/news/shows/kcrw-features/wildfire-renter-rights-help-insurance)
 
+
+* [Pasadena Tenant's Union guide for fire-impacted tenants](https://docs.google.com/document/d/1oImEUGV9qICUGEu-AYKhtJrdjdGbfPI6C8KuX2N9Apo/edit?tab=t.0)
+* [Reddit - Renters & Housing megathread - fire related for tenants](https://www.reddit.com/r/pasadena/comments/1i3jegg/renters_housing_megathread_fire_related_for/)
+

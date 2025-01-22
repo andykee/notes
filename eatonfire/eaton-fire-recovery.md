@@ -17,8 +17,13 @@
 * [Protect your pets from wildfire smoke](https://www.airnow.gov/publications/wildfire-guide-factsheets/wildfire-smoke-protect-your-pets/)
 * [CIRES researchers find compromised indoor air in homes following Marshall Fire](https://cires.colorado.edu/news/cires-researchers-find-compromised-indoor-air-home-following-marshall-fire?fbclid=IwZXh0bgNhZW0CMTEAAR2ezoKFYlwtfEir1FoLo0flA22aIvHvK1OT_AD5gfv8gBcBk-3N19v5T_U_aem_dtcONLzoUUVbib1tz8vWIQ)
 * [Why Doctors Still Recommend Masking After Wildfire Smoke Clears](https://www.nytimes.com/wirecutter/reviews/masking-after-wildfires/)
+* [Marshall Fire Smoke Exposure Estimator](https://marshallfiremap.netlify.app/smoke)
+* [Is the air quality index actually useful right now?](https://www.npr.org/2025/01/18/nx-s1-5266139/los-angeles-fires-smoke-air-quality-health-tips)
 
-### Industrial hygenist report
+#### Housing
+* [COMPASS Southern California Wildfire Resources](https://www.compasssocalstrong.com)
+
+#### Industrial hygenist report
 File a claim to open the process. Ask for an industrial hygienist report. Specifically ask, and then get in writing, an agreement for a pre and post remediation report. If they won't agree, pay for it yourself. It is the only way to know the extent of the smoke damage. You can request reimbursement from insurance later. Once you have the report, you can create a remediation plan. As you can see from other answers, damage can vary depending on location and wind and the structure itself. The report is the only way to know if there are toxins/VOCs in your home.
 
 #### Remediation certifications:

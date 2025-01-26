@@ -1,6 +1,7 @@
 # Eaton fire insurance info
 
 #### General
+* [Postfire LA](https://www.iolovesyou.com/postfirela)
 * [United Policyholders](https://uphelp.org)
 * [United Policyholders 2025 CA Wildfires - Insurance Claim and Recovery Help](https://uphelp.org/disaster-recovery-help/2025cawildfires/)
 * [United Policyholders Renters Insurance Claim Tips](https://uphelp.org/claim-guidance-publications/renters-insurance-claim-tips-california/)
@@ -14,6 +15,9 @@
 * https://plaintiffmagazine.com/images/issues/2016/09-september/Reprints/Grossman_The-loss-settlement-provision-in-a-homeowners-insurance-policy_It-matters_Plaintiff-magazine.pdf
 * [Replacement Cost Coverage and the 180-Day Notice Requirement](https://www.propertyinsurancecoveragelaw.com/blog/replacement-cost-coverage-and-the-180-day-notice-requirement/)
 * [How to interpret your insurance policy](https://brightharbor.com/blog/how-to-interpret-your-insurance-policy)
+
+#### Smoke claim
+* [California Smoke Soot and Ash Claims—A Cause for Concern](https://www.propertyinsurancecoveragelaw.com/blog/california-smoke-soot-and-ash-claims-a-cause-for-concern/)
 
 #### FEMA
 * [FEMA doesn't have a "glitch", they just need your insurance docs uploaded](https://www.reddit.com/r/pasadena/comments/1i01qkm/fema_doesnt_have_a_glitch_they_just_need_your/)

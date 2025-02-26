@@ -189,8 +189,8 @@ but they are in fact different (property) objects in memory:
 What's more, switching the order of ``a`` and ``b`` in ``__freeze_attrs__`` 
 shows that whichever attribute is iterated over last in the ``attrs`` dict 
 comprehension is returned for all frozen attributes. I've confirmed this is 
-the case with more than two frozen attributes as well. I have no idea why 
-this happens. At some point I'll have to dig in to the bytecode to see what 
+the case for more than two frozen attributes as well. <ins>**I have no idea why 
+this happens.**</ins> At some point I'll have to dig in to the bytecode to see what 
 is going on behind the scenes.
 
 In the meantime, I worked around this nonsense by writing a simple closure 

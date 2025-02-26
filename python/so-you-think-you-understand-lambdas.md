@@ -175,7 +175,7 @@ Aaaaand we're done:
 3
 ```
 
-<img src="blink.png">
+<img src="blink.gif">
 
 
 It appears the getter for ``a`` is the same as the getter for ``b``, 

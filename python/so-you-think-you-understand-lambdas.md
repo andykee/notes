@@ -1,5 +1,14 @@
 # So you think you understand Python lambda functions?
 
+### tl;dr
+This probably doesn't do what you think it does:
+
+```python
+attrs = {f'{attr}': property(fget=lambda x: getattr(x, f'_{attr}'))
+         for attr in ['a', 'b', 'c']}
+```
+
+### The rest of the story
 At some point over the last few years I coded myself into a corner. Consider the following Python class:
 
 ```python

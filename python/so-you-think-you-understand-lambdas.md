@@ -158,20 +158,21 @@ class Foo:
         # copy over all of self's attributes to frozenself
         frozenself.__dict__.update(self.__dict__)
 
-        # create static copies of the attributes we want to freeze
-        frozenself._a = self.a
-        frozenself._b = self.b
+        # create static copies of the frozen attributes
+        for attr in freeze_attrs:
+            setattr(frozenself, f'_{attr}', getattr(self, attr)) 
 
         return frozenself
 ```
 
 
-We've made two changes to ``freeze()``:
+We've made three changes to ``freeze()``:
 
 1. Construct a complete list of the attributes to freeze from ``self.__frozen_attrs__`` and any ``*args`` provided to ``freeze()``
 2. Dynamically construct the ``attrs`` dict via dict comprehension from the attributes in ``freeze_attrs``
+3. Create static copies of the attributes in ``freeze_attrs``
 
-Aaaaand we're done:
+Aaaaaand we're done:
 
 ```pycon
 >>> bar = Bar()

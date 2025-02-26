@@ -202,6 +202,7 @@ def frozen_getter(self, attr):
         return getattr(self, f'_{attr}')
     return fget
 
+
 class Foo:
     
     ...
@@ -220,7 +221,11 @@ and I may want that someday. Fine, I'll use a callable class instead:
 class _FrozenGetter:
     def __init__(self, attr):
         self.attr = attr
-    
+
+    def __call__(self, other):
+        return getattr(other, f'_{self.attr}')
+
+
 class Foo:
     
     ...

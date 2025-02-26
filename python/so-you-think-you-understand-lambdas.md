@@ -25,10 +25,10 @@ class Foo:
         self._b = value
 ```
 
-``Foo`` has several subclasses, and users may further develop new custom subclasses of 
-``Foo`` or its children. In particular, these subclasses tend to involve redefining one 
-or more of ``Foo``'s properties with getters that are state-based and/or require heavy 
-computations before returning a value. Maybe something like this:
+In the library I'm working on, ``Foo`` has several subclasses and users may further develop 
+new custom subclasses of ``Foo`` or its children. In particular, these subclasses tend to 
+involve redefining one or more of ``Foo``'s properties with getters that are state-based 
+and/or require heavy computations before returning a value. Maybe something like this:
 
 ```python
 import time
@@ -38,7 +38,7 @@ class Bar(Foo):
     @property
     def a(self):
         time.sleep(5)
-        return 5
+        return 25
     
     @property
     def b(self):
@@ -46,14 +46,22 @@ class Bar(Foo):
         return 3
 ```
 
-
 This isn't inherently a problem, but a separate part of the codebase operates on instances 
 of ``Foo`` (or its subclasses) by repeatedly accessing its properties in a way that assumes 
-they are unchanging. Recomputing their values each time is unnecessarily slow and providing 
-some temporary chache would greatly improve performance.
+they are static during process execution:
 
-A traditional cache won't work here, but I'm okay with making the user explicitly ask for 
-this temporary "freezing" to occur. A brute force solution looks something like this:
+```python
+def run(f: Foo):
+    for n in range(1000):
+        print(n + f.a + f.b)
+```
+
+Recomputing their values each time is unnecessarily slow and providing some temporary chache 
+mechanism would greatly improve performance. Because the property return values are free to 
+change at any time and only need to be cached (optionally) before the ``run()`` function is
+called, a traditional cache won't work here. Instead, the user will need to explicitly ask for
+this temporary "freezing" to occur by calling a new ``freeze()`` method. A brute force 
+solution looks something like this:
 
 ```python
 class Foo:
@@ -65,17 +73,7 @@ class Foo:
     def a(self):
         return self._a
     
-    @a.setter
-    def a(self, value):
-        self._a = value
-
-    @property
-    def b(self):
-        return self._b
-    
-    @b.setter
-    def b(self, value):
-        self._b = value
+    ...
 
     def freeze(self):
         name = 'Frozen' + self.__class__.__name__

@@ -3,6 +3,7 @@
 * [Postfire LA](https://www.iolovesyou.com/postfirela)
 
 #### Smoke remediation
+* [How do I clean?(https://altadenafire.org/how-do-i-clean/)
 * [Homeowner’s Guide to Risk Reduction and Remediation of Residential Smoke Damage](https://www.fema.gov/sites/default/files/documents/fema_marshall-fire-mat-homeowners-guide-risk-reduction-remediation-residential-smoke-damage.pdf)
 * [Hazards of Smoke and Tips for Cleaning After Fires - Caltech](https://scienceexchange.caltech.edu/topics/sustainability/ask-expert-sustainability/wildfire-california-hazards-of-smoke-paul-wennberg)
 * [How to mitigate post-fire smoke impacts in your home](https://cires.colorado.edu/news/how-mitigate-post-fire-smoke-impacts-your-home)

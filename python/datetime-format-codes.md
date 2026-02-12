@@ -15,6 +15,7 @@
 | `%B`      | Month (full)                                    | January, February, ..., December |
 | `%m`      | Month (zero padded number)                      | 01, 02, ..., 12                  |
 | `%d`      | Day of the month (zero padded number)           | 01, 02, ..., 31                  |
+| `%j`      | Day of the year (zero padded number)            | 001, 002, ..., 365               |
 | `%a`      | Weekday (abbreviated)                           | Sun, Mon, ..., Sat               |
 | `%A`      | Weekday (full)                                  | Sunday, Monday, ..., Saturday    |
 | `%H`      | Hour (24 hour, zero padded)                     | 00, 01, ..., 23                  |
